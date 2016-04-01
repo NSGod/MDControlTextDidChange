@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C18AD72A15B24C91009ECD18 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C18AD72915B24C91009ECD18 /* Cocoa.framework */; };
+		C18AD73415B24C91009ECD18 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C18AD73215B24C91009ECD18 /* InfoPlist.strings */; };
+		C18AD73615B24C91009ECD18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C18AD73515B24C91009ECD18 /* main.m */; };
+		C18AD73A15B24C91009ECD18 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C18AD73815B24C91009ECD18 /* Credits.rtf */; };
+		C18AD73D15B24C91009ECD18 /* MDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C18AD73C15B24C91009ECD18 /* MDAppDelegate.m */; };
+		C18AD74015B24C91009ECD18 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C18AD73E15B24C91009ECD18 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C18AD72515B24C91009ECD18 /* MDControlTextDidChange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDControlTextDidChange.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C18AD72915B24C91009ECD18 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C18AD72C15B24C91009ECD18 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C18AD72D15B24C91009ECD18 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C18AD72E15B24C91009ECD18 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C18AD73115B24C91009ECD18 /* MDControlTextDidChange-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MDControlTextDidChange-Info.plist"; sourceTree = "<group>"; };
+		C18AD73315B24C91009ECD18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C18AD73515B24C91009ECD18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C18AD73715B24C91009ECD18 /* MDControlTextDidChange-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MDControlTextDidChange-Prefix.pch"; sourceTree = "<group>"; };
+		C18AD73915B24C91009ECD18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		C18AD73B15B24C91009ECD18 /* MDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDAppDelegate.h; sourceTree = "<group>"; };
+		C18AD73C15B24C91009ECD18 /* MDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDAppDelegate.m; sourceTree = "<group>"; };
+		C18AD73F15B24C91009ECD18 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C18AD72215B24C91009ECD18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C18AD72A15B24C91009ECD18 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C18AD71A15B24C91009ECD18 = {
+			isa = PBXGroup;
+			children = (
+				C18AD72F15B24C91009ECD18 /* MDControlTextDidChange */,
+				C18AD72815B24C91009ECD18 /* Frameworks */,
+				C18AD72615B24C91009ECD18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C18AD72615B24C91009ECD18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C18AD72515B24C91009ECD18 /* MDControlTextDidChange.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C18AD72815B24C91009ECD18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C18AD72915B24C91009ECD18 /* Cocoa.framework */,
+				C18AD72B15B24C91009ECD18 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C18AD72B15B24C91009ECD18 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C18AD72C15B24C91009ECD18 /* AppKit.framework */,
+				C18AD72D15B24C91009ECD18 /* CoreData.framework */,
+				C18AD72E15B24C91009ECD18 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C18AD72F15B24C91009ECD18 /* MDControlTextDidChange */ = {
+			isa = PBXGroup;
+			children = (
+				C18AD73B15B24C91009ECD18 /* MDAppDelegate.h */,
+				C18AD73C15B24C91009ECD18 /* MDAppDelegate.m */,
+				C18AD73E15B24C91009ECD18 /* MainMenu.xib */,
+				C18AD73015B24C91009ECD18 /* Supporting Files */,
+			);
+			path = MDControlTextDidChange;
+			sourceTree = "<group>";
+		};
+		C18AD73015B24C91009ECD18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C18AD73115B24C91009ECD18 /* MDControlTextDidChange-Info.plist */,
+				C18AD73215B24C91009ECD18 /* InfoPlist.strings */,
+				C18AD73515B24C91009ECD18 /* main.m */,
+				C18AD73715B24C91009ECD18 /* MDControlTextDidChange-Prefix.pch */,
+				C18AD73815B24C91009ECD18 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C18AD72415B24C91009ECD18 /* MDControlTextDidChange */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C18AD74315B24C91009ECD18 /* Build configuration list for PBXNativeTarget "MDControlTextDidChange" */;
+			buildPhases = (
+				C18AD72115B24C91009ECD18 /* Sources */,
+				C18AD72215B24C91009ECD18 /* Frameworks */,
+				C18AD72315B24C91009ECD18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MDControlTextDidChange;
+			productName = MDControlTextDidChange;
+			productReference = C18AD72515B24C91009ECD18 /* MDControlTextDidChange.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C18AD71C15B24C91009ECD18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MD;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Mark Douma";
+			};
+			buildConfigurationList = C18AD71F15B24C91009ECD18 /* Build configuration list for PBXProject "MDControlTextDidChange" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C18AD71A15B24C91009ECD18;
+			productRefGroup = C18AD72615B24C91009ECD18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C18AD72415B24C91009ECD18 /* MDControlTextDidChange */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C18AD72315B24C91009ECD18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C18AD73415B24C91009ECD18 /* InfoPlist.strings in Resources */,
+				C18AD73A15B24C91009ECD18 /* Credits.rtf in Resources */,
+				C18AD74015B24C91009ECD18 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C18AD72115B24C91009ECD18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C18AD73615B24C91009ECD18 /* main.m in Sources */,
+				C18AD73D15B24C91009ECD18 /* MDAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C18AD73215B24C91009ECD18 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C18AD73315B24C91009ECD18 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C18AD73815B24C91009ECD18 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C18AD73915B24C91009ECD18 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		C18AD73E15B24C91009ECD18 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C18AD73F15B24C91009ECD18 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C18AD74115B24C91009ECD18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C18AD74215B24C91009ECD18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C18AD74415B24C91009ECD18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MDControlTextDidChange/MDControlTextDidChange-Prefix.pch";
+				INFOPLIST_FILE = "MDControlTextDidChange/MDControlTextDidChange-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C18AD74515B24C91009ECD18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MDControlTextDidChange/MDControlTextDidChange-Prefix.pch";
+				INFOPLIST_FILE = "MDControlTextDidChange/MDControlTextDidChange-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C18AD71F15B24C91009ECD18 /* Build configuration list for PBXProject "MDControlTextDidChange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C18AD74115B24C91009ECD18 /* Debug */,
+				C18AD74215B24C91009ECD18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C18AD74315B24C91009ECD18 /* Build configuration list for PBXNativeTarget "MDControlTextDidChange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C18AD74415B24C91009ECD18 /* Debug */,
+				C18AD74515B24C91009ECD18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C18AD71C15B24C91009ECD18 /* Project object */;
+}
